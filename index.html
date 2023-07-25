@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css">
+
+		<link rel="stylesheet" href="./src/css/estilos.css">
+
+
+		<link rel="stylesheet" href="./src/css/responsivo.css">
+
+		<title>Super Mario</title>
+	</head>
+	<body>
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/video/video-mario.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header class="cabecalho">
+			<a>
+				<img class="logo" src="./src/img/logo-chapeu-mario.png" alt="logo chapéu Mario" />
+			</a>
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Details</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/img/titulo.png" alt="imagem do título do filme" />
+				<p class="descricao">Mario is a plumber along with his brother Luigi. One day, they end up in the Mushroom Kingdom, ruled by Princess Peach, but threatened by the King of Koopas, who does everything to reign everywhere.</p>
+				<button class="botao-trailer">SEE THE TRAILER</button>
+			</div>
+			<img class="mario" src="./src/img/super-mario-chars.png" />
+
+			<div class="modal">
+				<div class="conteudo-modal">
+					<span class="fechar-modal">X</span>
+					<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
