@@ -8,3 +8,8 @@ function alternarModal(){
 	modal.classList.toggle("aberto");
 }
 
+botaoTrailer.addEventListener("click", () => {
+	alternarModal();
+	video.setAttribute("src", linkDoVideo);
+});
+
